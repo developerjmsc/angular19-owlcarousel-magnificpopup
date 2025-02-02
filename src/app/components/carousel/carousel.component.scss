@@ -1,0 +1,74 @@
+.boxsliderdetail {
+    height: auto;
+    overflow: hidden;
+    position: relative
+}
+
+.boxsliderdetail .slidetop {
+    height: 350px;
+    position: relative
+}
+
+.boxsliderdetail .slidetop .item {
+    width: 100%
+}
+
+.boxsliderdetail .slidetop img {
+    cursor: pointer;
+    height: 344px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100% !important
+}
+
+.boxsliderdetail .slidebot {
+    background: #e9ecef;
+    height: auto;
+    margin-top: -.2% !important;
+    padding: 0 12px;
+}
+
+.boxsliderdetail .slidebot .control {
+    margin-left: -5px;
+    margin-right: -5px
+}
+
+.boxsliderdetail .slidebot .icon {
+    background-color: rgba(0, 0, 0, .7);
+    color: #e0e0e0;
+    cursor: pointer;
+    float: left;
+    font-size: .8em;
+    height: 80px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%
+}
+
+.boxsliderdetail .slidebot .icon i {
+    font-size: 2em
+}
+
+.boxsliderdetail .slidebot .icon p {
+    margin: 0;
+    padding-top: 10px
+}
+
+.boxsliderdetail .slidebot #listcarouselthumb {
+    height: 90px;
+    margin-bottom: 2%;
+    padding: 10px 0
+}
+
+.boxsliderdetail .slidebot .item {
+    margin: 0 3px;
+    width: 100%
+}
+
+.boxsliderdetail .slidebot img {
+    cursor: pointer;
+    height: 90px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100% !important
+}
